@@ -11,12 +11,12 @@
   ```javascript
   db.eskatzaileak.find({});
   ```
-  2. **Buscar un Eskatzailea por su ID**
+  2. **ID-aren bidezko Eskatzailea bilatu**
   ```javascript
   db.eskatzaileak.find({ _id: ObjectId("id_del_eskatzailea") });
   ```
   
-  3. **Izen bidezko eskatzailea bilatu**
+  3. **Izen bidezko Eskatzailea bilatu**
   ```javascript
   db.eskatzaileak.find({ izena: "Mikel" });
   ```
